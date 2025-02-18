@@ -1,0 +1,36 @@
+{
+  "name": "figma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "deploy-storybook": "gh-pages --no-history -d storybook-static"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohaideenkhadar/figma.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohaideenkhadar/figma/issues"
+  },
+  "homepage": "https://github.com/mohaideenkhadar/figma#readme",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.4",
+    "@storybook/addon-essentials": "^8.5.6",
+    "@storybook/addon-interactions": "^8.5.6",
+    "@storybook/addon-onboarding": "^8.5.6",
+    "@storybook/blocks": "^8.5.6",
+    "@storybook/react": "^8.5.6",
+    "@storybook/react-vite": "^8.5.6",
+    "@storybook/test": "^8.5.6",
+    "gh-pages": "^6.3.0",
+    "prop-types": "^15.8.1",
+    "storybook": "^8.5.6"
+  }
+}
